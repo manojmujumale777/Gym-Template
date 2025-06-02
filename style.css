@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+}
+.header{
+    height: 70px;
+}
+.head-icon{
+    color: #e54444;
+}
+
+/* Hero Section  */
+
+.hero-section{
+    position: relative;
+}
+.hero-navbar{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+.motivation{
+    background-image:linear-gradient(rgba(36,36,36,0.5),rgba(0,0,0,0.5)), url(images/pexels-tima-miroshnichenko-5750755.jpg);
+    background-size: cover;
+    color: white;
+}
+.lightining{
+    font-size: 30px;
+}
+
+/* Comfort Zone Section  */
+
+.comfort-zone{
+    height: 650px;
+    background-image: url(images/pexels-anastasia-shuraeva-4944975.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.heading-6{
+    font-size: 40px;
+    font-weight: 600;
+}
+.heading{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/* Opening Courses Section  */
+
+.courses-section{
+    background-image:linear-gradient(rgba(48, 52, 65, 0.65),rgba(0,0,0,0.5)), url(images/shutterstock_124868017-700x460.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.course{
+    font-size: 40px;
+}
+
+.great-community{
+    background-color: #cf3d3d;
+}
+
+.personal-trainer{
+    background-color: #af3131;
+}
+
+/* Pricing Section  */
+
+.pricing{
+    background-image:linear-gradient(rgba(48, 52, 65, 0.55),rgba(0,0,0,0.5)), url(images/pexels-pixabay-414029.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@media (min-width:992px){
+    .testimontal{
+        font-size: 40px;
+    }
+
+    .para{
+        font-size: 25px;
+    }
+}
